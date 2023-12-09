@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e1c1c;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captcha-container{
+    width: 500px;
+  display: flex; 
+  flex-direction: column; 
+  background-color: #fff;
+  border-radius: 10px;
+   
+   
+}
+
+h3{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #107ce8;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.captcha-show{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+}
+.captcha-img{
+    height: 200px;
+    width: 100%;
+}
+.captcha-img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+    
+}
+
+.captcha-code{
+    width: 85%;
+    height: 60px;
+    line-height: 60px;
+    /* background-color: chocolate; */
+    text-align: center;
+    position: absolute;
+  
+}
+.generator{
+    /* background-color: #107ce8; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.generator img {
+    width: 30px;
+    cursor: pointer;
+    
+
+}
+
+.captcha{
+position: absolute;
+    
+  
+ 
+}
+
+.item1{
+    top: 10px;
+    left: 30px;
+}
+.item2{
+    top: 4px;
+    left: 90px;
+}
+.item3{
+    top: -10px;
+    left: 140px;
+}
+.item4{
+    top: 10px;
+    left: 190px;
+}
+
+.item5{
+    top: 10px;
+    left: 220px;
+}
+
+.item6{
+    top: 2px;
+    left: 270px;
+}
+
+.form-container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.captcha-input{
+    
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    /* border: none; */
+    font-size: 1.2rem;
+    padding: 0 5px;
+    letter-spacing: 5px;
+    
+}
+.captcha-input:focus{
+    outline: none;
+    border: #107ce8 solid 1px;
+}
+.form-container button{
+    width: 20%;
+    height: 100%;
+    background-color: #107ce8;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 0 0 10px 0;
+    
+
+    }
